@@ -1,0 +1,152 @@
+/* Color Pallette:
+#D65C5C
+#EE6D6D
+#F2877D
+#F7A08D
+#f8a987
+#FABB9E
+#FFD3AD 
+#F9EDC9
+#fff1c9 */
+
+body{
+    background-color: #fff1c9;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+#bio{
+    text-align: center;
+    padding: 5rem;
+}
+
+#bio > h1{
+    margin-top: -30px;
+    margin-bottom: 0;
+    color: #EE6D6D;
+    font-size: 3rem;
+}
+
+#bio > h3{
+    margin-top: 0;
+    color: #f2877d;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#bio > p{
+    margin-bottom: 30px;
+    color: #f8a37f;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+#name h1{
+    color: #ce4747;
+}
+
+#buttons{
+    margin-top: 0px;
+    text-align: center;
+    background-color: #fff1c9;
+}
+
+.button button{
+    background-color:bisque;
+    border-color: #f2877d;
+    color: #f2877d;
+    width: 30%;    
+    height: 30px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.button button:hover{
+    background-color: #f2877d;
+    color: #fff1c9;
+}
+
+footer{
+    text-align: center;
+}
+
+.connect img{
+    width:40px;
+}
+
+footer .connecting{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -15px;
+}
+
+
+
+img{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+hr{
+    border-radius: 100%;
+    width: 90%;
+    border-color: #EE6D6D;
+    border-style: solid;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff1c9;
+    color: #f2877d;
+    font-size: 1rem;
+    font-weight: 550;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.experience{
+    text-align: center;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #EE6D6D;
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EE6D6D;
+    font-size: 3rem;
+}
+
+.experience > h3{
+    margin-top: 0;
+    color: #f2877d;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.experience > h4{
+    margin-bottom: 15px;
+    color: #F7A08D;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+.experience > p{
+    margin-bottom: 30px;
+    color: #f8a987;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-top: 0;
+}
