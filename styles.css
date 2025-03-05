@@ -7,10 +7,11 @@
 #FABB9E
 #FFD3AD 
 #F9EDC9
-#fff1c9 */
+#fff1c9 
+#DAF4F7 blue */
 
 body{
-    background-color: #fff1c9;
+    background-color: #DAF4F7;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
 }
@@ -48,23 +49,24 @@ body{
 #buttons{
     margin-top: 0px;
     text-align: center;
-    background-color: #fff1c9;
+    background-color: #DAF4F7;
 }
 
 .button button{
-    background-color:bisque;
+    background-color:#DAF4F7;
     border-color: #f2877d;
     color: #f2877d;
-    width: 30%;    
+    width: 20%;    
     height: 30px;
     letter-spacing: 2px;
+    margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
 
 .button button:hover{
     background-color: #f2877d;
-    color: #fff1c9;
+    color: #DAF4F7;
 }
 
 footer{
@@ -84,8 +86,6 @@ footer .connecting{
     margin-top: -15px;
 }
 
-
-
 img{
     margin-top: 20px;
     margin-bottom: 0px;
@@ -101,7 +101,7 @@ hr{
 footer{
     text-align: center;
     padding: 1rem;
-    background-color: #fff1c9;
+    background-color: #DAF4F7;
     color: #f2877d;
     font-size: 1rem;
     font-weight: 550;
@@ -149,4 +149,82 @@ h1{
     font-size: 1rem;
     font-weight: 550;
     margin-top: 0;
+}
+
+#musicHeader h3{
+    margin-top: 0;
+    text-align: center;
+    color: #f2877d;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.link {
+    color: #EE6D6D;
+}
+
+#music body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-container{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container img{
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    width: 250px;
+    background: rgba(38, 64, 70, 0.926); /* Dark overlay */
+    color: #f2877d;
+    max-width: 70%;
+    text-align: center;
+    padding: 10px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.resturants{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.resturant-text{
+    max-width: 400px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #EE6D6D;
+    padding: 2rem;
+    color: #0f6f79;
 }
