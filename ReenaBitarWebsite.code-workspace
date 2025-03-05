@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "ReenaBitarWebsite",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../Bootcamp/ReenaBitarWebsite/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ReenaBitarWebsite"
+	}
+}
