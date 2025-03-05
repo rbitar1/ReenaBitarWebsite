@@ -8,7 +8,8 @@
 #FFD3AD 
 #F9EDC9
 #fff1c9 
-#DAF4F7 blue */
+#DAF4F7 light blue
+#118ea7 blue */
 
 body{
     background-color: #DAF4F7;
@@ -37,7 +38,7 @@ body{
 
 #bio > p{
     margin-bottom: 30px;
-    color: #f8a37f;
+    color: #118ea7;
     font-size: 1rem;
     font-weight: 550;
 }
@@ -145,7 +146,7 @@ h1{
 
 .experience > p{
     margin-bottom: 30px;
-    color: #f8a987;
+    color: #118ea7;
     font-size: 1rem;
     font-weight: 550;
     margin-top: 0;
@@ -226,5 +227,21 @@ h1{
     border-style: dashed;
     border-color: #EE6D6D;
     padding: 2rem;
-    color: #0f6f79;
+    color: #118ea7;
+}
+
+.travel-heading{
+    text-align: center;
+    color: #118ea7;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.traveling{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
